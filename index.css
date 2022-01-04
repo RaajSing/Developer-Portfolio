@@ -72,3 +72,69 @@ body{
 #first1 .right img{
     width: 60%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================== dreamBig  Section Start Here =============================== */
+section#dreamBig {
+    width: 100%;
+    padding: 5rem 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+section#dreamBig .left {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+section#dreamBig .left img {
+    width: 60%;
+}
+
+section#dreamBig .right {
+    flex-basis: 50%;
+}
+
+section#dreamBig .right h1 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+section#dreamBig .right h3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+section#dreamBig .right .smDesc {
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
+}
+section#dreamBig .right a{
+    font-size: 1.8rem;
+    text-decoration: none;
+    padding:1rem 1.8rem;
+    background:linear-gradient(rgba(255, 0, 0, 0.644), rgba(255, 99, 71, 0.671));
+    color:white;
+}
