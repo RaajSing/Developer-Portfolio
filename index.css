@@ -138,3 +138,85 @@ section#dreamBig .right a{
     background:linear-gradient(rgba(255, 0, 0, 0.644), rgba(255, 99, 71, 0.671));
     color:white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================================== Experiences Section Style Start Here ============================== */
+#experiencesArea{
+    width:100%;
+    padding:5rem 0;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:0%;
+}
+#experiencesArea h1{
+    font-size: 3.8rem;
+    margin-bottom: 3.5rem;
+}
+#experiencesArea .experienceWrapper{
+    padding:0 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#experiencesArea .experienceWrapper .singleExperience{
+    flex-basis: 40%;
+    box-shadow: 0 0 2rem .5rem #8a8989;
+}
+.singleExperience{
+    padding:3rem;
+}
+.singleExperience h2{
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+.singleExperience h3{
+    color:orange;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+.singleExperience p{
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    padding-bottom: 3rem;
+}
+#web-dev-experience{
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+    border-left:.7rem solid;
+
+}
+#web-dev-experience1{
+    border-left: .7rem solid tomato;
+}
+
+
+
+
+
+
+
+
+
+
+/* Footer Section Style Start Here */
+#footer{
+    text-align: center;
+    font-size: 1.6rem;
+    color:rgb(53, 52, 52);
+    padding:2rem 0;
+}
