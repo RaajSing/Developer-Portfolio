@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* =============================== First1 Section Style Start Here =================================== */
+#first1{
+    width:100%;
+    padding:5rem 8%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+#first1 .left{
+    flex-basis: 50%;
+}
+#first1 .right{
+    flex-basis: 50%;
+    /* display: flex; */
+    /* justify-content: end; */
+    text-align: right;
+}
+#first1 h1{
+    font-size: 5.5rem;
+    line-height: 7rem;
+    margin-bottom: 3rem;
+}
+#first1 h1 span{
+    color:orange;
+}
+#first1 .smTittle{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+#first1 .smDesc{
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
+}
+#first1 a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding:1rem 1.5rem;
+    color:white;
+    background: orange;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    border-radius: .3rem;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    -ms-border-radius: .3rem;
+    -o-border-radius: .3rem;
+}
+#first1 a:hover{
+    background: rgb(231, 231, 231);
+    color:orange;
+}
+#first1 .right img{
+    width: 60%;
+}
